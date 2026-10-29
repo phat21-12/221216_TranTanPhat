@@ -75,3 +75,31 @@ curl http://localhost:5000/health
 ```
 
 Biến môi trường `MONGODB_URI` được truyền khi chạy container và không được lưu trực tiếp trong Docker image.
+
+## Docker Frontend
+
+Frontend đã được đóng gói bằng Docker và đẩy lên Docker Hub.
+
+- Docker image: `221216ttp/frontend:latest`
+- Docker Hub: `https://hub.docker.com/r/221216ttp/frontend`
+- Cổng chạy thử: `8080`
+
+Build image:
+
+```bash
+docker build -t 221216ttp/frontend:latest ./frontend
+```
+
+Chạy frontend bằng Docker:
+
+```bash
+docker run -d --name food-frontend -p 8080:80 221216ttp/frontend:latest
+```
+
+Truy cập:
+
+```text
+http://localhost:8080
+```
+
+Frontend sử dụng biến môi trường `VITE_API_URL` để cấu hình địa chỉ backend.
