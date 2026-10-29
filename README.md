@@ -110,3 +110,12 @@ URL: https://web-221216.onrender.com
 URL: https://api-221216.onrender.com
 Health: https://api-221216.onrender.com/health
 Foods API: https://api-221216.onrender.com/api/foods
+
+## Thong tin nop bai
+GitHub: https://github.com/phat21-12/221216_TranTanPhat
+Docker Backend: https://hub.docker.com/r/221216ttp/backend
+Docker Frontend: https://hub.docker.com/r/221216ttp/frontend
+Render Frontend: https://web-221216.onrender.com
+Render Backend: https://api-221216.onrender.com
+MongoDB Database: 221216_TranTanPhat
+MongoDB Collection: foods
