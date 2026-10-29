@@ -105,3 +105,8 @@ http://localhost:8080
 Frontend sử dụng biến môi trường `VITE_API_URL` để cấu hình địa chỉ backend.
 ## Render Frontend
 URL: https://web-221216.onrender.com
+
+## Render Backend API
+URL: https://api-221216.onrender.com
+Health: https://api-221216.onrender.com/health
+Foods API: https://api-221216.onrender.com/api/foods
